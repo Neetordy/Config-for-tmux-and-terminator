@@ -28,7 +28,7 @@
     background_image = /home/neetordy/Pictures/miku.jpg
     background_type = image
     cursor_color = "#d3d0c8"
-    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "sh ~/.tmux/1.sh" -S $TMUX) || (TMUX="" tmux -c "sh ~/.tmux/1.sh" -2)
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh "-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
     font = Source Code Pro Medium 12
     foreground_color = "#d3d0c8"
     palette = "#2d2d2d:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#d3d0c8:#747369:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#f2f0ec"
