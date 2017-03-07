@@ -7,11 +7,14 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="spaceship"
-
-# "pure"
+ZSH_THEME="pure"
+# "spaceship"
+# "bullet-train"
+#
+#
 # "powerlevel9k/powerlevel9k"
 # "agnoster"
+#
 # Options Above
 
 
@@ -107,3 +110,4 @@ source ~/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/tmuxinator-0.9.0/complet
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
