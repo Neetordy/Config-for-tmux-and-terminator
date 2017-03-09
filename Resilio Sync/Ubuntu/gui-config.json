@@ -1,0 +1,202 @@
+{
+    "configs": [
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "127.0.0.1",
+            "server_port": 9527
+        },
+        {
+            "method": "aes-256-cfb",
+            "password": "namahoHFNXS",
+            "remarks": "",
+            "server": "jp.namaho.com",
+            "server_port": 14787
+        },
+        {
+            "method": "aes-256-cfb",
+            "password": "namahoHFNXS",
+            "remarks": "",
+            "server": "us.namaho.com",
+            "server_port": 14787
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "hk1-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "hk2-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "hk3-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "tw1-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "tw2-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "tw3-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "tw4-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "ph1-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "sg1-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "sg2-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "sg3-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "jp1-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "jp2-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "jp3-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "jp4-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "kr1-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "us1-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "us2-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "us3-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "us4-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "nsk-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "nsk2-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "",
+            "server": "vn1-start.openq.biz",
+            "server_port": 13120
+        },
+        {
+            "method": "chacha20",
+            "password": "zhy9588",
+            "remarks": "DO",
+            "server": "138.68.1.80",
+            "server_port": 443
+        },
+        {
+            "method": "rc4-md5",
+            "password": "zhy9588",
+            "remarks": "搬瓦工",
+            "server": "23.105.195.79",
+            "server_port": 443
+        }
+    ],
+    "localPort": 1080,
+    "shareOverLan": false
+}
