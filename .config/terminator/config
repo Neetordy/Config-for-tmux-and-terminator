@@ -25,16 +25,16 @@
   [[default]]
     background_color = "#2d2d2d"
     background_darkness = 0.7
-    background_image = /home/neetordy/Pictures/miku.jpg
+    background_image = /home/neetordy/Resilio Sync/Ubuntu/684484.png
     background_type = image
     cursor_color = "#d3d0c8"
     custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh "-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
-    font = Source Code Pro Medium 12
+    font = Hack 12
     foreground_color = "#d3d0c8"
+    login_shell = True
     palette = "#2d2d2d:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#d3d0c8:#747369:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#f2f0ec"
     scroll_background = False
     scrollback_lines = 3000
     show_titlebar = False
-    update_records = False
     use_custom_command = True
     use_system_font = False
