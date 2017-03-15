@@ -29,13 +29,13 @@
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+export UPDATE_ZSH_DAYS=7
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -121,4 +121,46 @@ source ~/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/tmuxinator-0.9.0/complet
 # source <(antibody init)
 
 
+#tmux auto-start and configuration
+tmux_init()  
+{  
+    session=Miku
+    tmux new-session -d -s $session -n home
+    tmux send-keys -t $session:1 'cd ~' C-m
+    tmux new-window -t $session:2 -n edit vi
+    tmux new-window -t $session:3 -n zsh
+    tmux new-window -t $session:4 -n SSH 
+    tmux send-keys -t $sesstio:4 'ssh root@' C-e C-m 
 
+    tmux split-window -t $session:3 -h
+    tmux select-window -t $session:1
+    tmux -2 attach-session -d
+
+#    tmux new-session -s "kumu" -d -n "local"    # 开启一个会话  
+#    tmux new-window -n "other"          # 开启一个窗口  
+#    tmux split-window -h                # 开启一个竖屏  
+#    tmux split-window -v "top"          # 开启一个横屏,并执行top命令  
+#    tmux -2 attach-session -d           # tmux -2强制启用256color，连接已开启的tmux  
+}
+
+
+# 判断是否已有开启的tmux会话，没有则开启  
+# if which tmux 2>&1 >/dev/null; then  
+# test -z "$TMUX" && (tmux attach || tmux_init)  
+# fi 
+
+
+#开启256色
+if [ "$TERM" = "linux" ]; then
+    alias fbterm='LANG=zh_CN.UTF-8 fbterm'
+    export TERM=fbterm
+    fbterm -- tmux
+else
+    export TERM='screen-256color'
+    # forbid touchpad when I'm typing
+    if [ "none`pgrep syndaemon`" = "none" ]; then
+        syndaemon -i 1 -K -d
+    fi
+fi
+#xrdb命令使xterm的配置生效
+#alias xterm='xrdb ~/.Xdefaults && xterm -e tmux

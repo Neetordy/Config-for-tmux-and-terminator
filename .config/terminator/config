@@ -28,7 +28,7 @@
     background_image = /home/neetordy/Resilio Sync/Ubuntu/684484.png
     background_type = image
     cursor_color = "#d3d0c8"
-    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh "-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh " -S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
     font = Hack 12
     foreground_color = "#d3d0c8"
     login_shell = True
