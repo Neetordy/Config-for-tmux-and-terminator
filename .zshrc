@@ -151,16 +151,16 @@ tmux_init()
 
 
 #开启256色
-if [ "$TERM" = "linux" ]; then
-    alias fbterm='LANG=zh_CN.UTF-8 fbterm'
-    export TERM=fbterm
-    fbterm -- tmux
-else
-    export TERM='screen-256color'
+#if [ "$TERM" = "linux" ]; then
+#    alias fbterm='LANG=zh_CN.UTF-8 fbterm'
+#    export TERM=fbterm
+#    fbterm -- tmux
+#else
+#    export TERM='screen-256color'
     # forbid touchpad when I'm typing
-    if [ "none`pgrep syndaemon`" = "none" ]; then
-        syndaemon -i 1 -K -d
-    fi
-fi
+#    if [ "none`pgrep syndaemon`" = "none" ]; then
+#        syndaemon -i 1 -K -d
+#    fi
+#fi
 #xrdb命令使xterm的配置生效
 #alias xterm='xrdb ~/.Xdefaults && xterm -e tmux
