@@ -547,3 +547,363 @@
     update_records = False
     use_custom_command = True
     use_system_font = False
+[[Later This Evening]]
+    palette = "#2b2b2b:#d45a60:#afba67:#e5d289:#a0bad6:#c092d6:#91bfb7:#3c3d3d:#454747:#d3232f:#aabb39:#e5be39:#6699d6:#ab53d6:#5fc0ae:#c1c2c2"
+    background_color = "#222222"
+    cursor_color = "#424242"
+    foreground_color = "#959595"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[Lavandula]]
+    palette = "#230046:#7d1625:#337e6f:#7f6f49:#4f4a7f:#5a3f7f:#58777f:#736e7d:#372d46:#e05167:#52e0c4:#e0c386:#8e87e0:#a776e0:#9ad4e0:#8c91fa"
+    background_color = "#050014"
+    cursor_color = "#8c91fa"
+    foreground_color = "#736e7d"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[LiquidCarbon]]
+    palette = "#000000:#ff3030:#559a70:#ccac00:#0099cc:#cc69c8:#7ac4cc:#bccccc:#000000:#ff3030:#559a70:#ccac00:#0099cc:#cc69c8:#7ac4cc:#bccccc"
+    background_color = "#303030"
+    cursor_color = "#ffffff"
+    foreground_color = "#afc2c2"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[MaterialDark]]
+    palette = "#212121:#b7141f:#457b24:#f6981e:#134eb2:#560088:#0e717c:#efefef:#424242:#e83b3f:#7aba3a:#ffea2e:#54a4f3:#aa4dbc:#26bbd1:#d9d9d9"
+    background_color = "#232322"
+    cursor_color = "#16afca"
+    foreground_color = "#e5e5e5"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[Medallion]]
+    palette = "#000000:#b64c00:#7c8b16:#d3bd26:#616bb0:#8c5a90:#916c25:#cac29a:#5e5219:#ff9149:#b2ca3b:#ffe54a:#acb8ff:#ffa0ff:#ffbc51:#fed698"
+    background_color = "#1d1908"
+    cursor_color = "#d3ba30"
+    foreground_color = "#cac296"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[Misterioso]]
+    palette = "#000000:#ff4242:#74af68:#ffad29:#338f86:#9414e6:#23d7d7:#e1e1e0:#555555:#ff3242:#74cd68:#ffb929:#23d7d7:#ff37ff:#00ede1:#ffffff"
+    background_color = "#2d3743"
+    cursor_color = "#000000"
+    foreground_color = "#e1e1e0"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[N0tch2k]]
+    palette = "#383838:#a95551:#666666:#a98051:#657d3e:#767676:#c9c9c9:#d0b8a3:#474747:#a97775:#8c8c8c:#a99175:#98bd5e:#a3a3a3:#dcdcdc:#d8c8bb"
+    background_color = "#222222"
+    cursor_color = "#aa9175"
+    foreground_color = "#a0a0a0"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[Neutron]]
+    palette = "#23252b:#b54036:#5ab977:#deb566:#6a7c93:#a4799d:#3f94a8:#e6e8ef:#23252b:#b54036:#5ab977:#deb566:#6a7c93:#a4799d:#3f94a8:#ebedf2"
+    background_color = "#1c1e22"
+    cursor_color = "#f6f7ec"
+    foreground_color = "#e6e8ef"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[Ollie]]
+    palette = "#000000:#ac2e31:#31ac61:#ac4300:#2d57ac:#b08528:#1fa6ac:#8a8eac:#5b3725:#ff3d48:#3bff99:#ff5e1e:#4488ff:#ffc21d:#1ffaff:#5b6ea7"
+    background_color = "#222125"
+    cursor_color = "#5b6ea7"
+    foreground_color = "#8a8dae"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[Pnevma]]
+    palette = "#2f2e2d:#a36666:#90a57d:#d7af87:#7fa5bd:#c79ec4:#8adbb4:#d0d0d0:#4a4845:#d78787:#afbea2:#e4c9af:#a1bdce:#d7beda:#b1e7dd:#efefef"
+    background_color = "#1c1c1c"
+    cursor_color = "#e4c9af"
+    foreground_color = "#d0d0d0"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[Red Alert]]
+    palette = "#000000:#d62e4e:#71be6b:#beb86b:#489bee:#e979d7:#6bbeb8:#d6d6d6:#262626:#e02553:#aff08c:#dfddb7:#65aaf1:#ddb7df:#b7dfdd:#ffffff"
+    background_color = "#762423"
+    cursor_color = "#ffffff"
+    foreground_color = "#ffffff"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[Seafoam Pastel]]
+    palette = "#757575:#825d4d:#728c62:#ada16d:#4d7b82:#8a7267:#729494:#e0e0e0:#8a8a8a:#cf937a:#98d9aa:#fae79d:#7ac3cf:#d6b2a1:#ade0e0:#e0e0e0"
+    background_color = "#243435"
+    cursor_color = "#57647a"
+    foreground_color = "#d4e7d4"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[Smyck]]
+    palette = "#000000:#b84131:#7da900:#c4a500:#62a3c4:#ba8acc:#207383:#a1a1a1:#7a7a7a:#d6837c:#c4f137:#fee14d:#8dcff0:#f79aff:#6ad9cf:#f7f7f7"
+    background_color = "#1b1b1b"
+    cursor_color = "#bbbbbb"
+    foreground_color = "#f7f7f7"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[SoftServer]]
+    palette = "#000000:#a2686a:#9aa56a:#a3906a:#6b8fa3:#6a71a3:#6ba58f:#99a3a2:#666c6c:#dd5c60:#bfdf55:#deb360:#62b1df:#606edf:#64e39c:#d2e0de"
+    background_color = "#242626"
+    cursor_color = "#d2e0de"
+    foreground_color = "#99a3a2"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[Solarized Darcula]]
+    palette = "#25292a:#f24840:#629655:#b68800:#2075c7:#797fd4:#15968d:#d2d8d9:#25292a:#f24840:#629655:#b68800:#2075c7:#797fd4:#15968d:#d2d8d9"
+    background_color = "#3d3f41"
+    cursor_color = "#708284"
+    foreground_color = "#d2d8d9"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[SpaceGray]]
+    palette = "#000000:#b04b57:#87b379:#e5c179:#7d8fa4:#a47996:#85a7a5:#b3b8c3:#000000:#b04b57:#87b379:#e5c179:#7d8fa4:#a47996:#85a7a5:#ffffff"
+    background_color = "#20242d"
+    cursor_color = "#b3b8c3"
+    foreground_color = "#b3b8c3"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[SpaceGray Eighties]]
+    palette = "#15171c:#ec5f67:#81a764:#fec254:#5486c0:#bf83c1:#57c2c1:#efece7:#555555:#ff6973:#93d493:#ffd256:#4d84d1:#ff55ff:#83e9e4:#ffffff"
+    background_color = "#222222"
+    cursor_color = "#bbbbbb"
+    foreground_color = "#bdbaae"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[Spacedust]]
+    palette = "#6e5346:#e35b00:#5cab96:#e3cd7b:#0f548b:#e35b00:#06afc7:#f0f1ce:#684c31:#ff8a3a:#aecab8:#ffc878:#67a0ce:#ff8a3a:#83a7b4:#fefff1"
+    background_color = "#0a1e24"
+    cursor_color = "#708284"
+    foreground_color = "#ecf0c1"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[Sundried]]
+    palette = "#302b2a:#a7463d:#587744:#9d602a:#485b98:#864651:#9c814f:#c9c9c9:#4d4e48:#aa000c:#128c21:#fc6a21:#7999f7:#fd8aa1:#fad484:#ffffff"
+    background_color = "#1a1818"
+    cursor_color = "#ffffff"
+    foreground_color = "#c9c9c9"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[Teerb]]
+    palette = "#1c1c1c:#d68686:#aed686:#d7af87:#86aed6:#d6aed6:#8adbb4:#d0d0d0:#1c1c1c:#d68686:#aed686:#e4c9af:#86aed6:#d6aed6:#b1e7dd:#efefef"
+    background_color = "#262626"
+    cursor_color = "#e4c9af"
+    foreground_color = "#d0d0d0"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[WarmNeon]]
+    palette = "#000000:#e24346:#39b13a:#dae145:#4261c5:#f920fb:#2abbd4:#d0b8a3:#fefcfc:#e97071:#9cc090:#ddda7a:#7b91d6:#f674ba:#5ed1e5:#d8c8bb"
+    background_color = "#404040"
+    cursor_color = "#30ff24"
+    foreground_color = "#afdab6"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[ToyChest]]
+    palette = "#2c3f58:#be2d26:#1a9172:#db8e27:#325d96:#8a5edc:#35a08f:#23d183:#336889:#dd5944:#31d07b:#e7d84b:#34a6da:#ae6bdc:#42c3ae:#d5d5d5"
+    background_color = "#24364b"
+    cursor_color = "#d5d5d5"
+    foreground_color = "#31d07b"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[Wryan]]
+    palette = "#333333:#8c4665:#287373:#7c7c99:#395573:#5e468c:#31658c:#899ca1:#3d3d3d:#bf4d80:#53a6a6:#9e9ecb:#477ab3:#7e62b3:#6096bf:#c0c0c0"
+    background_color = "#101010"
+    cursor_color = "#9e9ecb"
+    foreground_color = "#999993"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+[[Zenburn]]
+    palette = "#4d4d4d:#705050:#60b48a:#f0dfaf:#506070:#dc8cc3:#8cd0d3:#dcdccc:#709080:#dca3a3:#c3bf9f:#e0cf9f:#94bff3:#ec93d3:#93e0e3:#ffffff"
+    background_color = "#3f3f3f"
+    cursor_color = "#73635a"
+    foreground_color = "#dcdccc"
+    background_darkness = 1.0
+    background_image = None
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
