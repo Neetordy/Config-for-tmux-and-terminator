@@ -1,0 +1,40 @@
+[global_config]
+  enabled_plugins = CustomCommandsMenu, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  focus = system
+  handle_size = -3
+  inactive_color_offset = 1.0
+  title_inactive_fg_color = "#9490ae"
+  title_receive_bg_color = "#5999c6"
+  title_receive_fg_color = "#37ba92"
+  title_transmit_bg_color = "#ada264"
+  title_transmit_fg_color = "#a64545"
+  window_state = fullscreen
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      size = 925, 570
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.7
+    background_image = /home/neetordy/Pictures/miku.jpg
+    background_type = image
+    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
+    font = Source Code Pro Medium 12
+    scroll_background = False
+    scrollback_lines = 3000
+    show_titlebar = False
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+    palette = "#151515:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#d0d0d0:#505050:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#f5f5f5"
+    background_color = "#212121"
+    cursor_color = "#d0d0d0"
+    foreground_color = "#d0d0d0"
