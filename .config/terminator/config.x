@@ -253,16 +253,16 @@
     background_color = "#3f3f3f"
     cursor_color = "#73635a"
     foreground_color = "#dcdccc"
-    background_darkness = 1.0
-    background_image = None
-    custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
-    font = Source Code Pro Medium 12
-    scroll_background = False
-    scrollback_lines = 3000
-    show_titlebar = False
-    update_records = False
-    use_custom_command = True
-    use_system_font = False
+[[Belafonte Day]]
+    palette = "#20111b:#be100e:#858162:#eaa549:#426a79:#97522c:#989a9c:#968c83:#5e5252:#be100e:#858162:#eaa549:#426a79:#97522c:#989a9c:#d5ccba"
+    background_color = "#d5ccba"
+    cursor_color = "#45373c"
+    foreground_color = "#45373c"
+[[Belafonte Night]]
+    palette = "#20111b:#be100e:#858162:#eaa549:#426a79:#97522c:#989a9c:#968c83:#5e5252:#be100e:#858162:#eaa549:#426a79:#97522c:#989a9c:#d5ccba"
+    background_color = "#20111b"
+    cursor_color = "#968c83"
+    foreground_color = "#968c83"
     background_darkness = 1.0
     background_image = None
     custom_command = ([[ -f "$TMUX" ]] && tmux -2 -c "zsh ~/.tmux/1.sh"-S $TMUX) || (TMUX="" tmux -2 -c "zsh ~/.tmux/1.sh")
