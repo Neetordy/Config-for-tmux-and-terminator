@@ -164,3 +164,8 @@ tmux_init()
 #fi
 #xrdb命令使xterm的配置生效
 #alias xterm='xrdb ~/.Xdefaults && xterm -e tmux
+
+
+
+# Disable rm command
+alias rm='echo "This is not the command you are looking for."; false'

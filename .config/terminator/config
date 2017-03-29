@@ -14,7 +14,7 @@
   [[default]]
     [[[child1]]]
       parent = window0
-      profile = Arthur
+      profile = Seafoam Pastel
       type = Terminal
     [[[window0]]]
       parent = ""
